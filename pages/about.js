@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 
-const index = () => {
+const about = () => {
     return (
         <div>
             <Navbar />
-            <h1> Hola Mundo 322</h1>
+            <h2>Esta es una pagina about</h2>
         </div>
     );
 };
 
-export default index;
+export default about;
